@@ -33,8 +33,8 @@ ycrc_conda_env.sh update
 
 ## Pretrained Models and Datasets Used
 ### Pretrained Models
-ResNet: Image encoder initialized from pretrained ResNet weights, then fine-tuned on the Chest X-ray data.
-Bio_ClinicalBERT: Domain-specific BERT variant trained on clinical notes; used as the text encoder and fine-tuned during training.
+- ResNet: Image encoder initialized from pretrained ResNet weights, then fine-tuned on the Chest X-ray data.
+- Bio_ClinicalBERT: Domain-specific BERT variant trained on clinical notes; used as the text encoder and fine-tuned during training.
 
 ### Dataset
 Indiana University Chest X-ray: Used as the primary dataset, including radiology reports and associated chest X-ray images. Accessible at [Indiana University Chest X-ray Collection (Kaggle)](https://www.kaggle.com/datasets/raddar/chest-xrays-indiana-university/data).
